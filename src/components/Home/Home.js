@@ -16,11 +16,12 @@ import { FaLinkedinIn,AiOutlineMail } from "react-icons/fa";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import laptopImg from "../../Assets/about.png";
 import Education from "../Education";
+import Experience from "../Experience/Experience";
 
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section" id="home" border='3px solid green'>
         <Particle />
         <Container className="home-content">
           <Row>
@@ -105,6 +106,7 @@ function Home() {
         </Row>
       <Home2 />
       <About />
+      {/* <Experience /> */}
       <Education />
         <Projects />
     </section>

@@ -3,9 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
+// import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Experience from "../Experience/Experience";
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
+        <Experience />
         <Github />
       </Container>
     </Container>

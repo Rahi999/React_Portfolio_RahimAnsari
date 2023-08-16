@@ -29,11 +29,11 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router >
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App" id={load ? "no-scroll" : "scroll"} style={{width:"93%", margin: 'auto'}}>
         <Navbar />
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />

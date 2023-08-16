@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -9,7 +9,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import pic from "./pic.jpg";
 import laptopImg from "../../Assets/about.png";
-import Aboutcard from "../About/AboutCard";
+// import Aboutcard from "../About/AboutCard";
 
 
 function Home2() {
@@ -35,7 +35,16 @@ function Home2() {
             }}
           >
            
-           <p >Frontend Software Developer with excellent academic background and diverse skillset. Ability to deliver clean and reusable code. Experience in 6+ Projects in web development.Well-versed with React, Redux, JavaScript, TypeScript(Basics), HTML, CSS, Tailwind CSS, Material & Chakra-UI. Looking to start a career as a software developer in a reputed Company.</p>
+           <p >
+           Versatile Developer & QA Automation Engineer | Frontend & Backend Expert 
+           <br />
+           <br/>
+           I am a Versatile Developer and QA Automation Engineer, proficient in both frontend and backend development, with a proven track record of crafting clean and reusable code. With a portfolio spanning over 6 successful web projects (Including Facebook clone), my expertise covers a wide spectrum of technologies. On the frontend, I excel in creating captivating user interfaces using technologies like React, Redux, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS, Material-UI, and Chakra-UI. On the backend, I am skilled in building robust and efficient systems using Node.js, Express.js, and MongoDB.
+           <br/>
+           <br/>
+           My versatility extends beyond development. I am also thriving as a QA & Automation Engineer at Masai School, where I enhance my skillset with technologies such as Python, pip, selenium, allure, pytest, Jenkins, and Manual testing. This dual expertise in frontend and backend development, along with quality assurance practices, uniquely equips me to contribute holistically across the software development spectrum.
+           <br /><br />
+           </p>
           </Col>
          
         </Row>
@@ -43,7 +52,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={pic} style={{borderRadius:"60%"}} className="img-fluid" alt="avatar" />
+              <Image src={pic} style={{borderRadius:"30%"}} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
