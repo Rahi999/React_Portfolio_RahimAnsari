@@ -14,13 +14,13 @@ function Experience() {
                             company="Masai School Bangalore, KA"
                             Role="QA Intern"
                             startYear="Jan-2023"
-                            endYear="May-2023 (3 months)"
+                            endYear="April-2023"
                             link="https://www.masaischool.com/"
                         />
                           <ExperienceCard 
                             company="Masai School Bangalore, KA"
                             Role="QA & Automation Engineer"
-                            startYear="May 2023"
+                            startYear="April 2023"
                             endYear="Present"
                             link="https://www.masaischool.com/"
                         />

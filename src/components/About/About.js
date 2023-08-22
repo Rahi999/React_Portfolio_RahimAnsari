@@ -11,6 +11,7 @@ import Experience from "../Experience/Experience";
 function About() {
   return (
     <Container fluid className="about-section">
+        <Experience />
       <Particle />
       <Container>
         
@@ -24,7 +25,6 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-        <Experience />
         <Github />
       </Container>
     </Container>
