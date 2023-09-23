@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #top{
+            border: 2px solid red;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        #top>div{
+            width: 90%;
+            height: 300px;
+            border: 3px solid blueviolet;
+        }
+
+        /* Mobile screens */
+        @media all and (min-width: 300px) and (max-width: 600px){
+            #top{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            #top>div{
+                width: 100%;
+                margin: auto;
+            }
+
+        }
+
+        /* Medium screens */
+        @media all and (min-width: 600px) and (max-width: 1000px){
+            #top{
+                grid-template-columns: repeat(3, 1fr);
+            }
+            #top>div{
+                margin: auto;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="top">
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+    </div>
+</body>
+</html>

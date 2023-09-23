@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/Rahi999/Rahi999/files/12407636/Resume_Rahim_Ansari.pdf";
+  "https://github.com/Rahi999/Rahi999/files/12512895/Rahim_Ansari_Resume_04-09-2023-16-03-00.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -25,7 +25,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://github.com/Rahi999/Rahi999/files/12407636/Resume_Rahim_Ansari.pdf"
+            href="https://github.com/Rahi999/Rahi999/files/12512895/Rahim_Ansari_Resume_04-09-2023-16-03-00.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -43,7 +43,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://github.com/Rahi999/Rahi999/files/12407636/Resume_Rahim_Ansari.pdf"
+            href="https://github.com/Rahi999/Rahi999/files/12512895/Rahim_Ansari_Resume_04-09-2023-16-03-00.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
